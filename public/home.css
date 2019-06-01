@@ -1,0 +1,131 @@
+html,body{
+    width: 100%;
+    height:100%;
+}
+nav{
+   
+    box-shadow: 5px 8px 10px -5px rgba(0, 0, 0, 0.56);
+}
+.nav-link{
+    font-size: 1.7rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    margin-right: 0.5rem;
+}
+.main{
+    padding-top: 3rem;
+    background: url("./stars.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:40rem;    
+}
+
+nav .navbar-nav li a{
+    color:white !important ;
+    }
+.twtext{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 10rem;
+}
+.hello{
+    color: white;
+}
+.type-cursor { color:#fff; animation:blink .4s ease infinite;opacity:0; }
+ @keyframes blink {
+ 	100% { opacity:1; }
+ }
+ .navbar.scrolled {
+    background: rgb(26, 8, 26);
+    transition: background 500ms;
+}
+.about-header{
+    font-family: 'Roboto Slab', serif;
+    text-decoration: underline;
+}
+.about-content{
+    
+    box-shadow: 3px 6px 8px -5px rgba(0, 0, 0, 0.56);
+    
+    
+}
+.about-image{
+    float: left;
+}
+.col-6{
+    
+    float:left;
+}
+.about-image img{
+    width:20rem;
+    height:20rem;
+}
+.about-matter{
+    font-family: 'Ranga', cursive;
+    font-size: 1.7rem;
+}
+.skills{
+    background-color: #ff8080;
+    color: white;
+    text-align: center;
+}
+.skills-header{
+    font-family: 'Pacifico', cursive;
+}
+.skills h2{
+    
+    font-family: 'Source Serif Pro', serif;
+}
+.skills  h3{
+    font-family: 'Questrial', sans-serif;
+}
+.portfolio-header{
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
+}
+.card img{
+    height: 10rem;
+}
+.dropdown{
+    margin-bottom: 0.2rem;
+}
+.card{
+    margin: 1rem 1rem 1rem 1rem;
+    box-shadow: 5px 8px 10px -5px rgba(0, 0, 0, 0.56);
+}
+.grid-container{
+    display: grid;
+}
+#contact{
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+#contact h1{
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
+}
+#contact p{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+#contact a{
+    margin: 0.3rem;
+}
+.footer {
+    
+    bottom: 0;
+    width: 100%;
+    
+    height: 1.5rem;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .container .muted {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    color: white;
+    text-align: center;
+  }
+  html { overflow-x: hidden; }
