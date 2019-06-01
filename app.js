@@ -12,6 +12,6 @@ app.use(express.static(__dirname+"/public"))
 
 
 
-app.listen(8000,function(){
+app.listen(process.env.PORT||8000,function(){
     console.log("The Chakradhar server has started!");
 });
