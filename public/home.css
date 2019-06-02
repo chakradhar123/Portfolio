@@ -1,11 +1,13 @@
 html,body{
     width: 100%;
     height:100%;
-    
 }
 nav{
     
     box-shadow: 5px 8px 10px -5px rgba(0, 0, 0, 0.56);
+}
+#mainNavbar{
+    padding: 0;
 }
 #over {
     position: relative;
@@ -133,5 +135,5 @@ nav .navbar-nav li a{
     color: white;
     text-align: center;
   }
-  html { overflow-x: hidden; }
+  html{ overflow-x: hidden; }
   

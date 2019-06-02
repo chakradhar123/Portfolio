@@ -39,3 +39,6 @@ $(function () {
       $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height()+30);
   });
 });
+$('.navbar-nav>li>a').on('click', function(){
+  $('.navbar-collapse').collapse('hide');
+});
