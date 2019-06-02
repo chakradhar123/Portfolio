@@ -1,6 +1,10 @@
-html,body{
-    width: 100%;
-    height:100%;
+html,body
+{
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 0 0 0;
+    padding: 0px;
+    overflow-x: hidden !important;
 }
 nav{
    
@@ -20,7 +24,7 @@ nav{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height:40rem;    
+    height:50rem;    
 }
 
 nav .navbar-nav li a{
@@ -129,5 +133,5 @@ nav .navbar-nav li a{
     color: white;
     text-align: center;
   }
-  html { overflow-x: hidden; }
+  
   
