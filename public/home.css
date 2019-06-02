@@ -6,7 +6,12 @@ nav{
    
     box-shadow: 5px 8px 10px -5px rgba(0, 0, 0, 0.56);
 }
-
+@media only screen and (max-width: 480px) {
+    
+    [class="nav-link"]{
+        font-size: 0.5rem;
+    }
+  }
 .nav-link{
     font-size: 1.7rem;
     font-family: 'Dancing Script', cursive;
