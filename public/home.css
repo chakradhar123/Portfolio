@@ -141,4 +141,7 @@ nav .navbar-nav li a{
     text-align: center;
   }
   html{ overflow-x: hidden; }
+  button{
+      margin-bottom: 1rem;
+  }
   
